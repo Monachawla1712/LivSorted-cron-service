@@ -1,0 +1,10 @@
+export const WAREHOUSE_SCHEMA_NAME = 'warehouse';
+export const MYSQL_MIGRATION_LOGS_TABLE_NAME = 'migration_logs';
+export const PGSQL_MIGRATION_LOGS_TABLE_NAME = 'pgsql_migration_logs';
+export const WHSKUS_TABLE_NAME = 'wh_skus';
+export const SSP_TABLE_NAME = 'store_secondary_picking';
+export const PG_L3_TICKET_ITEM_TABLE_NAME = 'pgsql_l3_ticket_item';
+export const STORE_REQUISITIONS_TABLE_NAME = 'store_requisitions';
+export const SR_SKUS_TABLE_NAME = 'sr_skus';
+export const DSR_INFO_TABLE_NAME = 'dark_store_requisitions_info';
+export const DARK_STORE_REQUISITIONS_TABLE_NAME = 'dark_store_requisitions';
