@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       IMAGE_NAME: cron:prod  # Docker image name
-      DOCKER_IMAGE_PATH: /home/ec2-user/docker-images/cron-prod/build.tar  # Docker save path
+      DOCKER_IMAGE_PATH: /home/ec2-user/docker-images/cron-prod/build.tar  # Docker save pathh
       BUILD_DIR: /home/ec2-user/cron-service  # The build directory
       BD_PROD_INSTANCE_ID: ${{ secrets.BD_PROD_INSTANCE_ID }} #BD_PROD server instance ID
 
